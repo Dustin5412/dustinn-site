@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dustin's Page</title>
+  <link rel="icon" href="/favicon.ico" />
+  <style>
+    body { font-family: sans-serif; padding: 2rem; background: #f8f8f8; }
+    h1 { color: #333; }
+  </style>
+</head>
+<body>
+  <h1>Hey! I'm Dustin</h1>
+  <p>I love full-stack development and I'm enrolled in CSE 135.</p>
+  <p>Here’s a live clock using JavaScript:</p>
+  <p id="clock"></p>
+  <script>
+    setInterval(() => {
+      document.getElementById("clock").textContent = new Date().toLocaleTimeString();
+    }, 1000);
+  </script>
+</body>
+</html>
