@@ -69,4 +69,8 @@ This shows a file being pushed to GitHub and the live website auto-updating via 
 
 ---
 
+## Basic Authentication
+Passowrd
+   987456321Nguyen
+
 © 2025 – CSE 135 HW1 Team
