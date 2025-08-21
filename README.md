@@ -4,9 +4,9 @@ This project demonstrates automated deployment of a personal/team website using 
 
 ## Project Structure
 
-- Live Website: https://yourdomain.com
-- Personal Pages: https://dustinn.com/members/yourname.html
-- Deployment Hook Endpoint: https://dustinn.com/hooks/deploy-site
+- Live Website: https://dustinn.site
+- Personal Pages: https://dustinn.site/members/yourname.html
+- Deployment Hook Endpoint: https://dustinn.site/hooks/deploy-site
 
 ## Deployment Workflow
 
@@ -20,12 +20,18 @@ This project demonstrates automated deployment of a personal/team website using 
 
 ## File Overview
 
-- /var/www/html/  
-  ├── index.html  
-  ├── members/  
-  ├── deploy.sh ← Executes the git pull  
-  └── favicon.ico
-
+- /var/www/dustinn.site
+├── 404.html
+├── favicon.ico
+├── hw1
+│   ├── hello.php
+│   └── report.html
+├── index.html
+├── members
+│   └── dustinn.html
+├── public_html
+│   └── 404.html
+└── robots.txt
 - /etc/webhook/hooks.json  
   Defines the webhook behavior and points to deploy.sh
 
