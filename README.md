@@ -83,3 +83,45 @@ Passowrd
    987456321Nguyen
 
 © 2025 – CSE 135 HW1 Team
+
+
+# CSE 135 HW2 – Server Side Basics
+
+## Team Members
+- Dustin Nguyen
+
+## Server Info
+- Domain: https://dustinn.site
+- IP Address: 66.75.243.49
+- SSH Grader Login: grader / CSE135-Grader!2025
+
+## CGI Programs
+
+### PHP
+- [Hello HTML World](https://dustinn.site/cgi-bin/php-hello-html-world.php)
+
+### NodeJS
+- [Hello HTML World](https://dustinn.site/cgi-bin/node-hello-html-world.js)
+
+### Python
+- [Hello HTML World](https://dustinn.site/cgi-bin/py-hello-html-world.py)
+
+
+### Screenshots
+- `php-hello-html-world.png`
+- `node-hello-html-world.png`
+- `py-hello-html-world.png`
+
+## Third Party Analytics
+
+### Google Analytics
+- Screenshot: `ga-dashboard.png`
+
+### LogRocket
+- Screenshot: `logrocket.png`
+- Session Recording: `logrocket-session.gif` / `logrocket-session.mp4`
+
+## Notes for Graders
+- CGI programs located in `cgi-bin/`
+- All programs executable and tested
+- Analytics scripts verified in DevTools
