@@ -5,8 +5,8 @@ This project demonstrates automated deployment of a personal/team website using 
 ## Project Structure
 
 - Live Website: https://yourdomain.com
-- Personal Pages: https://yourdomain.com/members/yourname.html
-- Deployment Hook Endpoint: https://yourdomain.com/hooks/deploy-site
+- Personal Pages: https://dustinn.com/members/yourname.html
+- Deployment Hook Endpoint: https://dustinn.com/hooks/deploy-site
 
 ## Deployment Workflow
 
@@ -69,7 +69,10 @@ This shows a file being pushed to GitHub and the live website auto-updating via 
 
 ---
 
+#Summary of HTML Changes After Compression:
+After enabling Apache’s mod_deflate, the HTML, CSS, and JS files are now compressed using gzip. In Chrome DevTools, the response headers show Content-Encoding: gzip and the transferred file size is smaller, reducing bandwidth usage. The browser automatically decompresses the content, so the page renders identically to before. Overall, page load performance improved without any visible changes to the HTML.
 ## Basic Authentication
+
 Passowrd
    987456321Nguyen
 
